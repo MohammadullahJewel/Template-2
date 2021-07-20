@@ -1,0 +1,255 @@
+/* 
+    Template Name   : 
+    Author Name     : Mohammadullah Jewel;
+    Author URL      : ;
+
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-padding {
+    padding: 30px 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+/* =========================== START HEADER AREA ===================== */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .logo span {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #402323;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+.logo i {
+    padding-right: 14px;
+    font-size: 25px;
+    color: #402323;
+}
+nav {
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li a {
+    display: block;
+    color: #402323;
+    font-size: 20px;
+    font-family: tahoma;
+    transition: .3s;
+}
+nav ul li a:hover {
+    opacity: 0.5;
+}
+.menu-btn{
+  display: none;
+}
+#check{
+  display: none;
+}
+/* =============================== END HEADER AREA ================== */
+/* =================================== HERO HEADER START =============== */
+.hero-area {
+    background-color: #ccc;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url('assets/img/1.jpg'));
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+}
+.hero-content {
+    width: 70%;
+}
+.hero-content h2 {
+    font-size: 30px;
+    padding: 25px 0;
+    color: #01acff;
+}
+.border-after{
+    position: relative;
+}
+.border-after:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 3px;
+    background: #402323;
+}
+.hero-content p {
+    line-height: 25px;
+    font-size: 18px;
+    color: #402323;
+    padding-top: 21px;
+}
+.hero-content a {
+    display: inline-block;
+    background: #402323;
+    padding: 10px 20px;
+    color: #01acff;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-transition:.3s;
+    transition: .3s;
+    margin-top: 25px;
+}
+.hero-content a:hover {
+    background: #01acff;
+    color: #402323;
+}
+/* =============================== HERO HEADER END =================== */
+/* =================================== START HERO CONTENT BOX ================= */
+.hero-content-box {
+    padding-top: 0;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .col-md-3 {
+    flex-basis: 25%;
+  }
+  .single-content-box {
+    padding: 15px;
+    position: relative;
+    background: #8ea6ec9e;
+    overflow: hidden;
+  }
+  .single-content-box.bg2 {
+    background: #5383dd9e;
+  }
+  .single-content-box.bg3 {
+    background: #c7d3f79e;
+  }
+  .single-content-box.bg4 {
+    background: #8277ff9e;
+  }
+  .single-content-box h3 {
+    font-size: 22px;
+    padding: 10px 0;
+    color: #fff;
+  }
+  .single-content-box p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #402323;
+    padding: 5px 0;
+  }
+  .single-content-box a {
+    display: inline-block;
+    margin-top: 55px;
+    text-align: right;
+    float: right;
+    color: #402323;
+    border: 1px solid #402323;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+/* =================================== END HERO CONTENT BOX ================= */
+/* =============================== SERVICES AREA START ================= */
+.services-content {
+  flex-basis: 60%;
+}
+.services-img {
+	flex-basis: 40%;
+}
+.services-img img {
+  width: 100%;
+  margin-left: auto;
+}
+.services-content p {
+  line-height: 30px;
+  width: 90%;
+}
+.services-box h2 {
+  padding: 30px 0px;
+  position: relative;
+}
+.services-box a {
+  display: inline-block;
+  margin: 30px 0;
+  background: #402323;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/* =============================== SERVICES AREA END ================= */
+/* ================================ START FOOTER AREA ================== */
+.footer-contact h2 {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .footer-contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-box input {
+    display: block;
+    margin: auto 20px;
+  }
+  .footer-contact form textarea, .footer-contact form input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #402323;
+    outline: none;
+    border-radius: 3px;
+  }
+  .footer-contact form input:not(input:last-child) {
+    margin-bottom: 28px;
+  }
+  .footer-contact {
+    flex-basis: 60%;
+  }
+  .footer-links {
+    text-align: right;
+    flex-basis: 40%;
+  }
+  .footer-links h3 {
+    margin-top: 20%;
+    padding: 20px 0;
+  }
+  .footer-links ul li {
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px solid #402323;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .footer-links ul li a {
+    display: block;
+    color: #402323;
+    text-align: center;
+    line-height: 40px;
+  }
+/* ================================ END FOOTER AREA ================== */

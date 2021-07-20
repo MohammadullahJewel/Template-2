@@ -1,0 +1,96 @@
+/* =============================== RESPONSIVE FOR HEADER MENU ================ */
+
+@media screen and (max-width:992px) {
+    nav {
+        text-align: right;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: #93b9ea;
+        width: 300px;
+        padding-right: 50px;
+        height: 100%;
+        min-height: 100vh;
+        z-index: 99;
+        -webkit-transition:.5s;
+        transition: .5s;
+    }
+    nav ul li {
+        display: block;
+        padding: 15px 0;
+    }
+    nav ul{
+        padding: 30px;
+    }
+    .menu-btn {
+        display: block;
+        padding: 12px;
+        background: #5223;
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .menu-btn i {
+        font-size: 20px;
+      }
+      #check:checked ~ .navigation nav {
+        right: 0;
+      }
+}
+
+
+/* =====================  RESPONSIVE FOR  HERO CONTENT BOX ===============*/
+@media  screen and (max-width:768px) {
+    .col-md-3{
+        flex-basis: 50%;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .services-content p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px) {
+     .row{
+        flex-direction: column;
+    }
+    form {
+        flex-direction: column;
+      }
+      .footer-contact {
+        width: 100%;
+      }
+      .input-box {
+        width: 100%;
+      }
+      textarea {
+        box-sizing: border-box !important;
+        width: 100% !important;
+      }
+      .input-box input {
+        box-sizing: border-box;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .footer-contact form input:not(input:last-child) {
+        margin-bottom: 0;
+      }
+      .footer-links h3 {
+        display: none;
+      }
+      .footer-links {
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+      }
+}
+@media screen and (max-width:500px) {
+    .hero-content p{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
